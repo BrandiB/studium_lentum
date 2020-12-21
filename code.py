@@ -116,6 +116,7 @@ if PLAY_SOUNDS == True:
     for notepair in song:
         magtag.peripherals.play_tone(notepair[0], notepair[1] * 0.2)
 if SHOW_LIGHTS == True:
+    time.sleep(0.5)
     magtag.peripherals.neopixels.fill(0xffffff)
 else:
     magtag.peripherals.neopixels.fill(0x000000)
@@ -276,6 +277,7 @@ while True:
                 for notepair in song:
                     magtag.peripherals.play_tone(notepair[0], notepair[1] * 0.2)
             if SHOW_LIGHTS == True:
+                time.sleep(0.5)
                 magtag.peripherals.neopixels.fill(0xffffff)
             else:
                 magtag.peripherals.neopixels.fill(0x000000)
@@ -296,6 +298,7 @@ while True:
                 for notepair in song:
                     magtag.peripherals.play_tone(notepair[0], notepair[1] * 0.2)
             if SHOW_LIGHTS == True:
+                time.sleep(0.5)
                 magtag.peripherals.neopixels.fill(0xffffff)
             else:
                 magtag.peripherals.neopixels.fill(0x000000)
@@ -321,6 +324,7 @@ while True:
                 for notepair in song:
                     magtag.peripherals.play_tone(notepair[0], notepair[1] * 0.2)
             if SHOW_LIGHTS == True:
+                time.sleep(0.5)
                 magtag.peripherals.neopixels.fill(0xffffff)
             else:
                 magtag.peripherals.neopixels.fill(0x000000)
@@ -341,6 +345,7 @@ while True:
                 for notepair in song:
                     magtag.peripherals.play_tone(notepair[0], notepair[1] * 0.2)
             if SHOW_LIGHTS == True:
+                time.sleep(0.5)
                 magtag.peripherals.neopixels.fill(0xffffff)
             else:
                 magtag.peripherals.neopixels.fill(0x000000)
